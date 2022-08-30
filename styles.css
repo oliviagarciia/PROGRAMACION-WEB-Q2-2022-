@@ -1,5 +1,9 @@
-#tituloPrincipal{color: darkslategrey;}
-.titulosProductos{background-color:dimgray; color:darkred;}
+#titulo{color: rgb(55, 49, 49); font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: italic ; position:relative; left: 500px;}
+#subtitulo{color: rgb(55,49,49); font-size: 15px; font-family: 'Times New Roman', Times, serif;position:relative; left: 550px;}
+.productos{font-family:'Times New Roman', Times, serif; color: rgb(55,49, 49);}
+.foto{max-width: 150px; max-height: 150px;border-radius: red;}
+.borde{border-style: ridge; border-color: darkslategray;}
+#whatsapp{position:fixed; bottom: 10px;right: 10px; max-width: 50px; max-height: 50px;}
 
 
 
