@@ -119,32 +119,9 @@ body{
 .containerCountdown{
     justify-content: center;
     margin-top: 0;
-    width: 1600px;
+    width: 100%;
     display: flex;
     border-radius: 4px;
     background-color: rebeccapurple;
+    border: 2px solid white;
 }
-.containerCountdown .bloque{
-    margin: 0 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.containerCountdown .bloque div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-    font-size: 40px;
-    width: 100px;
-    height: 70px;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-.containerCountdown .bloque p{
-    font-size: 20px;
-    color: black;
-}
-
