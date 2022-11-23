@@ -168,15 +168,3 @@ body{
         ;
     }
 }
-#footerPag{
-    padding: 10px;
-    flex-direction: row;
-    bottom:0;
-    width: 100%;
-}
-
-@media (max-width: 600px){
-    .footerPag{
-        flex-direction: column;
-    }
-}
