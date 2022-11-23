@@ -164,9 +164,7 @@ body{
     font-size: 15px;
     width: auto;
 }
-#footerPag{
-    width: 100%;
-}
+
 
 @media (max-width: 600px){
     .contenedor{
