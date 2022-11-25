@@ -86,6 +86,7 @@ body{
 .container{
     margin-left: 0;
     display: flex;
+    border: 2px solid red;
 }
 
 #form{
@@ -120,28 +121,16 @@ body{
     display: flex ;
     flex-direction: row;
     width: 100%;
-    height: 400px;
+    height: 500px;
     border: 3px solid white;
 }
-.containerCountdown{
-    padding: 10px;
-    margin-top: 0;
-    width: 100%;
-    display: inline-block;
-    border-radius: 4px;
-}
-#conseguilas{
-    width:auto;
-    color: white;
-    font-size: 35px;
-}
-.links{
-    color: white;
-    font-size: 20px;
-    text-decoration: none;
 
-}
 
+.parrafo{
+    color: white;
+    font-size: 15px;
+    width: auto;
+}
 #whatsapp{
     position:fixed;
     bottom: 10px;
@@ -149,22 +138,17 @@ body{
     max-width: 50px;
     max-height: 50px;
 }
-#regist{
-    color: white;
-    font-size: 25px;
-    width: auto;
-    font-family:Arial, Helvetica, sans-serif;
-}
-.parrafo{
-    color: white;
-    font-size: 15px;
-    width: auto;
-}
 
+.countdownContainer{
+
+}
 
 @media (max-width: 600px){
     .contenedor{
         flex-direction: column
         ;
+    }
+    .container{
+        flex-direction: column;
     }
 }
